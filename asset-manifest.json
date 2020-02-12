@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-hw-2-feedback/static/js/main.9c88b1c3.chunk.js",
-    "main.js.map": "/react-hw-2-feedback/static/js/main.9c88b1c3.chunk.js.map",
+    "main.js": "/react-hw-2-feedback/static/js/main.c7e2f343.chunk.js",
+    "main.js.map": "/react-hw-2-feedback/static/js/main.c7e2f343.chunk.js.map",
     "runtime-main.js": "/react-hw-2-feedback/static/js/runtime-main.86787294.js",
     "runtime-main.js.map": "/react-hw-2-feedback/static/js/runtime-main.86787294.js.map",
-    "static/js/2.71aa0c6e.chunk.js": "/react-hw-2-feedback/static/js/2.71aa0c6e.chunk.js",
-    "static/js/2.71aa0c6e.chunk.js.map": "/react-hw-2-feedback/static/js/2.71aa0c6e.chunk.js.map",
+    "static/js/2.f8a71311.chunk.js": "/react-hw-2-feedback/static/js/2.f8a71311.chunk.js",
+    "static/js/2.f8a71311.chunk.js.map": "/react-hw-2-feedback/static/js/2.f8a71311.chunk.js.map",
     "index.html": "/react-hw-2-feedback/index.html",
-    "precache-manifest.e425a6cefafad3413401c78f943a1d9f.js": "/react-hw-2-feedback/precache-manifest.e425a6cefafad3413401c78f943a1d9f.js",
+    "precache-manifest.9939ee4783ec9616fb045609fcf34d65.js": "/react-hw-2-feedback/precache-manifest.9939ee4783ec9616fb045609fcf34d65.js",
     "service-worker.js": "/react-hw-2-feedback/service-worker.js",
-    "static/js/2.71aa0c6e.chunk.js.LICENSE.txt": "/react-hw-2-feedback/static/js/2.71aa0c6e.chunk.js.LICENSE.txt"
+    "static/js/2.f8a71311.chunk.js.LICENSE.txt": "/react-hw-2-feedback/static/js/2.f8a71311.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.86787294.js",
-    "static/js/2.71aa0c6e.chunk.js",
-    "static/js/main.9c88b1c3.chunk.js"
+    "static/js/2.f8a71311.chunk.js",
+    "static/js/main.c7e2f343.chunk.js"
   ]
 }

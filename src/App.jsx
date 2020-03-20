@@ -3,6 +3,11 @@ import Statistics from './components/Statistics/Statistics';
 import Section from './components/Section/Section';
 import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
 
+export const options = {
+  GOOD: 'good',
+  NEUTRAL: 'neutral',
+  BAD: 'bad',
+};
 class App extends Component {
   state = {
     good: 0,
@@ -10,24 +15,10 @@ class App extends Component {
     bad: 0,
   };
 
-  chooseGood = () => {
+  chooseFeedback = feedback => {
     this.setState(state => {
       return {
-        good: state.good + 1,
-      };
-    });
-  };
-  chooseNeutral = () => {
-    this.setState(state => {
-      return {
-        neutral: state.neutral + 1,
-      };
-    });
-  };
-  chooseBad = () => {
-    this.setState(state => {
-      return {
-        bad: state.bad + 1,
+        [feedback]: state[feedback] + 1,
       };
     });
   };
@@ -37,11 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <Section title="Please leave feedbach">
-          <FeedbackOptions
-            chooseGood={this.chooseGood}
-            chooseBad={this.chooseBad}
-            chooseNeutral={this.chooseNeutral}
-          />
+          <FeedbackOptions chooseFeedback={this.chooseFeedback} />
         </Section>
         <Section title="Statistics">
           <Statistics options={{ good, neutral, bad }} />
